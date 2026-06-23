@@ -7,7 +7,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "  site: "https://udyam-registration-guide.udyam34.workers.dev",
+  site: "https://udyam-registration-guide.udyam34.workers.dev",
   integrations: [mdx(), sitemap()],
   adapter: cloudflare({
     platformProxy: {
